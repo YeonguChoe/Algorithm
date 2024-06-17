@@ -1,2 +1,5 @@
 # Algorithm
-Algorithm prototype by topic
+
+
+### Algorithm used in Game
+- Number of Islands
