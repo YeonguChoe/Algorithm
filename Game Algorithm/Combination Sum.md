@@ -46,5 +46,5 @@ def backtrack(candidate, i, result, solution_variable, target):
     solution_variable.pop()
     backtrack(candidate, i + 1, result, solution_variable, target)
 ```
-- 시간 복잡도: $O(2^{\frac{Target}{min(candidate)}}+1)$
+- 시간 복잡도: $O(2^{\frac{Target}{min(candidate)}})$
 - 공간 복잡도: $O(\frac{Target}{min(candidate)})$
