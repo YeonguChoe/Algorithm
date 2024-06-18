@@ -1,5 +1,7 @@
 # Number of Islands
 
+테마: Counting
+
 ## BFS를 이용한 방법
 ```python
 from collections import deque
