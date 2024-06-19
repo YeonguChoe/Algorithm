@@ -29,6 +29,9 @@ function backtracking(s, starting_index) {
 }
 ```
 
+- 시간 복잡도: $$O(2^{s.length})$$
+- 공간 복잡도: $$O(s.length)$$
+
 ## With Memoization: Dynamic Programming
 ```javascript
 function numDecodings(s) {
@@ -66,3 +69,6 @@ function backtracking(s, starting_index, memoization) {
     return result
 }
 ```
+
+- 시간 복잡도: $$O(s.length)$$
+- 공간 복잡도: $$O(s.lenth)$$
